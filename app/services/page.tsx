@@ -23,7 +23,7 @@ const services = [
   {
     title: "Sannayi Melam",
     slug: "/sannayi-melam",
-    image: "/sannayi-melam.png",
+    image: "/melam.png",
     description: "Auspicious Sannayi Melam services for weddings, engagements, poojas, and religious ceremonies, performed by experienced Sannayi artists to elevate every occasion.",
   },
   {

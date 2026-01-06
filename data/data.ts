@@ -67,7 +67,7 @@ export const destinationData = [
     },
     {
       id: 3,
-      image: "/sannayi-melam.png",
+      image: "/melam.png",
       name: "Sannayi Melam",
       slug: "/sannayi-melam",
       price: "95",

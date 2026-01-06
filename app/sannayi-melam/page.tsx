@@ -43,7 +43,7 @@ export default function SannayiMelamHubPage() {
           {/* Image */}
           <div className="relative w-full h-80 md:h-[420px] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/sannayi-melam.png"
+              src="/melam.png"
               alt="Traditional Sannayi Melam Performance"
               fill
               className="object-cover"
@@ -100,7 +100,7 @@ export default function SannayiMelamHubPage() {
 
           <div className="relative w-full h-80 md:h-[360px] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/sannayi-melam.png"
+              src="/melam.png"
               alt="Sannayi Melam Wedding Performance"
               fill
               className="object-cover"
