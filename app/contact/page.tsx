@@ -2,7 +2,8 @@
 import { Metadata } from "next";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import ContactForm from "./ContactForm"; // client component
-import FAQSection from "../components/FAQSection";
+import FAQSection from "@/app/components/FAQSection";
+
 
 export const metadata: Metadata = {
   title: "Contact KKR Events | Book Event Services",
