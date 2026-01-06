@@ -33,8 +33,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "EventService",
               name: "KKR Events",
-              url: "https://yourdomain.com", // 🔴 CHANGE AFTER DEPLOY
-              telephone: "+91XXXXXXXXXX", // 🔴 CHANGE
+              url: "https://kkr-events.vercel.app/", // 🔴 CHANGE AFTER DEPLOY
+              telephone: "+917288945110", // 🔴 CHANGE
               serviceType: [
                 "DJ Services",
                 "Wedding DJ",
@@ -42,6 +42,7 @@ export default function RootLayout({
                 "Chenda Melam",
                 "Sannayi Melam",
                 "Wedding Band",
+                "Saxophone Player"
               ],
               areaServed: [
                 {

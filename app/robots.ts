@@ -6,7 +6,7 @@ export default function robots() {
           allow: "/",
         },
       ],
-      sitemap: "https://yourdomain.com/sitemap.xml", // 🔴 CHANGE THIS
+      sitemap: "https://kkr-events.vercel.app/sitemap.xml", // 🔴 CHANGE THIS
     };
   }
   

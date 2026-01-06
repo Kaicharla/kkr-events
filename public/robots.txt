@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kkr-events.vercel.app
+
+# Sitemaps
+Sitemap: https://kkr-events.vercel.app/sitemap.xml

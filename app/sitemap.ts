@@ -1,7 +1,7 @@
 import { locations } from "@/lib/locations";
 
 export default function sitemap() {
-  const baseUrl = "https://yourdomain.com"; // 🔴 CHANGE THIS
+  const baseUrl = "https://kkr-events.vercel.app/"; // 🔴 CHANGE THIS
 
   const urls: {
     url: string;
