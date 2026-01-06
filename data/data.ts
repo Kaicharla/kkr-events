@@ -53,41 +53,41 @@ export const destinationData = [
   export const hotelsData = [
     {
       id: 1,
-      image: "/images/h1.jpg",
-      name: "The Grand London Resort and Spa",
-      location: "Westminster, London",
-      rating: 4.6,
-      reviews: "2,345",
+      image: "/dj.png",
+      name: "DJ Services",
+      slug: "/dj-services",
       price: "72",
     },
     {
       id: 2,
-      image: "/images/h2.jpg",
-      name: "Barcelona City Suites Deluxe Hotel",
-      location: "Ciutat Vella, Barcelona",
-      rating: 4.7,
-      reviews: "1,912",
+      image: "/chenda-melam.png",
+      name: "Chenda Melam",
+      slug: "/chenda-melam",
       price: "85",
     },
     {
       id: 3,
-      image: "/images/h3.jpg",
-      name: "Times Square Premium Stay Hotel",
-      location: "Manhattan, New York",
-      rating: 4.9,
-      reviews: "3,420",
+      image: "/sannayi-melam.png",
+      name: "Sannayi Melam",
+      slug: "/sannayi-melam",
       price: "95",
     },
     {
       id: 4,
-      image: "/images/h4.jpg",
-      name: "Hilton Roma Luxury Hotel Palace",
-      location: "Vaticano Prati, Rome",
-      rating: 4.5,
-      reviews: "2,876",
+      image: "/saxophone.png",
+      name: "Saxophone Player",
+      slug: "/saxophone-player",
+      price: "68",
+    },
+    {
+      id: 5,
+      image: "/ladies-teenmar.png",
+      name: "Ladies Teenmar",
+      slug: "/ladies-teenmar",
       price: "68",
     },
   ];
+  
   
   export const toursData = [
     {
