@@ -1,6 +1,5 @@
 "use client";
-
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 
 interface FAQ {
   question: string;
@@ -18,7 +17,6 @@ export default function FAQSection({ faqs }: FAQProps) {
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
 
-    // Scroll to the FAQ smoothly when opening
     const container = containerRef.current;
     if (container) {
       const faqElement = container.children[index] as HTMLElement;
