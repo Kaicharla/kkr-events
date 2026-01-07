@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://kkr-events.vercel.app',
-    generateRobotsTxt: true, // (true by default)
+    siteUrl: 'https://kkr-events.vercel.app', // deployed site
+    generateRobotsTxt: true,
     sitemapSize: 5000,
     changefreq: 'daily',
     priority: 0.7,
@@ -10,9 +10,7 @@ module.exports = {
       policies: [
         { userAgent: '*', allow: '/' },
       ],
-      additionalSitemaps: [
-        'https://kkr-events.vercel.app/sitemap.xml',
-      ],
+      additionalSitemaps: [], // remove the redundant sitemap
     },
   };
   
