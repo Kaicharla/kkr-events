@@ -5,11 +5,11 @@ module.exports = {
     sitemapSize: 5000,
     changefreq: 'daily',
     priority: 0.7,
-    exclude: ['/admin/*'],
-    outDir: './public', // ✅ ensure sitemaps are in public
+    outDir: './public',
+  
+    // Optional: remove double slashes in generated URLs
     transform: async (config, url) => {
-      // Remove double slashes in generated URLs
-      const fixedUrl = url.replace(/\/\//g, '/').replace('https:/', 'https://');
+      const fixedUrl = url.replace(/([^:]\/)\/+/g, '$1'); // removes double slashes except after https:
       return {
         loc: fixedUrl,
         changefreq: config.changefreq,
