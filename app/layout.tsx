@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="akbm43-VHZmAlCELe3J8bNPIfyEzrdp2C5wv1UO5DZk" />
+      </head>
       <body className={`${font.className} antialiased`}>
         {/* 🔥 GLOBAL SCHEMA MARKUP */}
         <script
@@ -42,17 +46,11 @@ export default function RootLayout({
                 "Chenda Melam",
                 "Sannayi Melam",
                 "Wedding Band",
-                "Saxophone Player"
+                "Saxophone Player",
               ],
               areaServed: [
-                {
-                  "@type": "State",
-                  name: "Andhra Pradesh",
-                },
-                {
-                  "@type": "State",
-                  name: "Telangana",
-                },
+                { "@type": "State", name: "Andhra Pradesh" },
+                { "@type": "State", name: "Telangana" },
               ],
             }),
           }}
